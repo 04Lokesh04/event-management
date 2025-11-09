@@ -8,13 +8,16 @@ import profileRoutes from './routes/profileRoutes.js'
 dotenv.config()
 const app=express()
 
-app.use(cors({
-  origin: [
-    "https://event-management-liart-five.vercel.app",
-    "http://localhost:5173"
-  ],
-  methods: ["GET", "POST", "PATCH", "DELETE"],
-}));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://event-management-liart-five.vercel.app",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 app.use(express.json())
 
