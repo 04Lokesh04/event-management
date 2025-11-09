@@ -1,0 +1,85 @@
+.editCard {
+  background-color: #ffffff;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.editProfileCreateCard{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.editProfileStartEndDateTime{
+    display: flex;
+    flex-direction: column;
+}
+
+.editProfilesCardLabel{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #565555;
+}
+
+.editTimeCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.editDate{
+    min-width: 100%;
+    border-width: 0px;
+    background-color: transparent;
+    font-size: 15px;
+    outline: none;
+}
+
+.editDateWrapper{
+    min-width: 70%;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 10px;
+}
+.editcalender{
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.editTimewrapper{
+    min-width: auto;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 10px;
+    color: #565555;
+    font-size: 20px;
+}
+
+.editCancelButton{
+    background-color: #f8f8f8;
+    border: #e8e6e6 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    color: #565555;
+
+}
+
+.editSaveButton{
+    background-color: #681aed;
+    border: #e8e6e6 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    color: #e8e6e6;
+}
+.editSaveButton:hover{
+    background-color: #9b65f9;
+}

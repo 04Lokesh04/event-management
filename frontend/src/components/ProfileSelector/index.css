@@ -1,0 +1,212 @@
+.profSelector {
+  position: relative;
+  display: inline-block;
+}
+
+
+.profileButton {
+  background-color: #f8f8f8;
+  border: 1px solid #d7d8d9;
+  border-radius: 20px;
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  min-width: 200px;
+  box-sizing: border-box;
+}
+
+.sinlgecard{
+  height: 60px;
+  width: 350px;
+}
+.multicard {
+  height: 40px;
+  width: 100%;
+}
+
+.selecttext {
+  color: #6a6767;
+  font-size: 20px;
+  margin: 0;
+}
+
+.profPopup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+
+  margin-top: 6px;
+  width: 350px;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden; 
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.profSearch {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 16px;
+
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+
+.usersCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Nousers {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  padding: 10px 0;
+}
+
+.profItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.userName {
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  max-width: 100%;
+  display: block;
+}
+
+.SingleProfileItem {
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+.SingleProfileItem:hover {
+  background: #f3f3f3;
+}
+
+.SingleProfileItem.is-active {
+  background: #e8edff;
+  font-weight: bold;
+}
+
+.profileadder {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addProfile {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+.profileCreate {
+  display: flex;
+  gap: 8px;
+}
+
+.newProfile {
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 75%;
+  outline-color: #681aed;
+}
+
+.addUser {
+  padding: 6px 10px;
+  background-color: #681aed;
+  border-radius: 6px;
+  border: 1px solid #681aed;
+  cursor: pointer;
+  color: #fbf6f6;
+}
+
+.addUser:hover{
+  background-color: #985cff;
+}
+
+.addProfile{
+  background-color: transparent;
+  outline: none;
+  font-size: 15px;
+  border-width: 0px;
+}
+
+.addProfile:hover{
+    background-color: #f7f7f7;
+}
+
+.multiselectstyle{
+  outline: none;
+}
+
+.multiProfileItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+  font-size: 18px;
+  width: 100%;
+}
+
+.multiProfileItem:hover {
+  background-color: #f2f1ff;
+}
+
+.multiProfileItem.is-active {
+  background-color: #e7dbff;
+  border-color: #c6b3ff;
+  font-weight: 600;
+}
+
+.tickIcon {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b43ec;
+  min-width: 20px;
+  text-align: center;
+}
+
+.tickPlaceholder {
+  min-width: 20px;
+}

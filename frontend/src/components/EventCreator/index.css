@@ -1,0 +1,86 @@
+.card{
+    background-color: #ffffff;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cardTitle{
+    font-size:30px ;
+    color: #565555;
+}
+
+.profileCreateCard{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ProfileStartEndDateTime{
+    display: flex;
+    flex-direction: column;
+}
+
+.profilesCardLabel{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #565555;
+}
+
+.timeCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date{
+    min-width: 100%;
+    border-width: 0px;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+}
+
+.dateWrapper{
+    min-width: 70%;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+}
+.calender{
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.timewrapper{
+    min-width: auto;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 10px;
+    color: #565555;
+    font-size: 20px;
+}
+
+.createButton{
+    background-color: #681aed;
+    color: #ffffffe3;
+    border-width: 0px;
+    border-radius: 15px;
+    
+}
+.createButton:hover{
+    background-color: #985cff;
+}
+
+.timezoneselectorcard{
+    background-color: #f8f8f8;
+    height: 50px;
+    border-radius: 15px;
+    border-width: 0px;
+    outline: none;
+}

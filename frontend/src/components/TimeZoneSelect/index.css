@@ -1,0 +1,24 @@
+.tzSelect {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+
+  background: #f8f8f8;
+  color: #333;
+
+  border: 1px solid #d9dce2;
+  border-radius: 8px;
+
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+.tzSelect option {
+  padding: 8px;
+  background: #ffffff;
+  color: #333;
+  width:50%
+}

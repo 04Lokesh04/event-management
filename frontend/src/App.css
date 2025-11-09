@@ -1,0 +1,18 @@
+.main{
+  background-color: #e3e3e3b8;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.mainContainer {         
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  gap: 20px;  
+  overflow: hidden;
+  height: 100%;
+}
