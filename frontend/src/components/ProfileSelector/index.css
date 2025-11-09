@@ -210,3 +210,24 @@
 .tickPlaceholder {
   min-width: 20px;
 }
+
+
+
+@media (max-width: 768px){
+  .sinlgecard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px){
+  .selecttext {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 480px){
+  .profPopup {
+    width: 90vw;
+  }
+}

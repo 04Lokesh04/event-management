@@ -83,3 +83,25 @@
 .editSaveButton:hover{
     background-color: #9b65f9;
 }
+
+@media (max-width: 768px){
+  .editTimeCard {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .editProfilesCardLabel {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px){
+  .editTimewrapper {
+    font-size: 16px;
+  }
+  .editSaveButton {
+    width: 100%;
+  }
+  .editCancelButton {
+    width: 100%;
+  }
+}

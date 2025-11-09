@@ -16,3 +16,26 @@
   overflow: hidden;
   height: 100%;
 }
+
+@media (max-width: 1024px) {
+  .main {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+  .main {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    font-size: 16px;
+  }
+}

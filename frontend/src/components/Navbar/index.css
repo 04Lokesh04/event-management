@@ -20,3 +20,21 @@
     font-weight: bolder;
 }
 
+@media (max-width: 768px){
+  .nav {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px){
+  .navHeading {
+    font-size: 20px;
+  }
+  .navPara {
+    font-size: 13px;
+  }
+}
+
+
