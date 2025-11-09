@@ -10,7 +10,7 @@ const app=express()
 
 app.use(cors({
   origin: [
-    "https://event-management-liard-three.vercel.app/",
+    "https://event-management-liart-five.vercel.app",
     "http://localhost:5173"
   ],
   methods: ["GET", "POST", "PATCH", "DELETE"],
