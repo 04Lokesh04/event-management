@@ -8,7 +8,14 @@ import profileRoutes from './routes/profileRoutes.js'
 dotenv.config()
 const app=express()
 
-app.use(cors())
+app.use(cors({
+  origin: [
+    "https://event-management-liard-three.vercel.app/",
+    "http://localhost:5173"
+  ],
+  methods: ["GET", "POST", "PATCH", "DELETE"],
+}));
+
 app.use(express.json())
 
 app.use('/api/profile', profileRoutes)
